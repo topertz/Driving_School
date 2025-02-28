@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <!-- Loading Bootstrap stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="register.css">
+    <style>
+        .close {
+            width: auto;
+            padding: 0;
+            margin: 0;
+            line-height: 1;
+            background-color: transparent;
+            border: none;
+        }
+
+            .close:hover, .close:focus {
+                background-color: transparent;
+                outline: none;
+            }
+
+            .close span {
+                display: inline-block;
+                padding: 0.5rem;
+            }
+
+        .d-none {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Register modal window -->
+    <div class="container mt-5">
+        <h1 id="registerHeading" style="margin-top: 200px">Register</h1>
+        <form id="registrationForm" method="POST">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+                <small id="emailError" class="form-text text-danger" style="display:none;">Invalid email format!</small>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+                <small id="passwordError" class="form-text text-danger" style="display:none;">Password must be at least 8 characters long, contain uppercase, lowercase letters, numbers, and special characters.</small>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm password</label>
+                <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required>
+                <small id="confirmPasswordError" class="form-text text-danger" style="display:none;">Passwords do not match!</small>
+            </div>
+            <button type="submit" id="registerButton" class="btn btn-primary">Register</button>
+            <button type="button" id="showLoginBtn" class="btn btn-secondary" style="margin-top: 10px; background-color: lightgreen;">Login</button>
+        </form>
+        <button id="backToHomeBtn" class="btn btn-secondary mt-3">Back to homepage</button>
+    </div>
+
+    <!-- Login modal window -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" style="margin-top: 180px">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <label for="loginEmail">Email</label>
+                            <input type="email" class="form-control" id="loginEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="loginPassword">Password</label>
+                            <input type="password" class="form-control" id="loginPassword" required>
+                        </div>
+                        <button id="loginButton" type="button" class="btn btn-primary" onclick="LogIn();">Login</button>
+                    </form>
+                    <button id="backBtn" class="btn btn-secondary mt-3">Back to homepage</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function ValidateEmail(email) {
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailPattern.test(email);
+        }
+
+        function ValidatePassword(password) {
+            const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
+            return passwordPattern.test(password);
+        }
+
+        function ShowError(id, message) {
+            const errorElement = document.getElementById(id);
+            errorElement.innerText = message;
+            errorElement.style.display = 'block';
+        }
+
+        function HideError(id) {
+            const errorElement = document.getElementById(id);
+            errorElement.style.display = 'none';
+        }
+
+        function SaveToCookieAndRedirect() {
+            document.getElementById('registrationForm').addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                const email = document.getElementById('email').value;
+                const password = document.getElementById('password').value;
+                const confirmPassword = document.getElementById('confirmPassword').value;
+
+                let valid = true;
+
+                if (!ValidateEmail(email)) {
+                    ShowError('emailError', 'Invalid email format!');
+                    valid = false;
+                } else {
+                    HideError('emailError');
+                }
+
+                if (!ValidatePassword(password)) {
+                    ShowError('passwordError', 'Password must be at least 8 characters long, contain uppercase, lowercase letters, numbers, and special characters.');
+                    valid = false;
+                } else {
+                    HideError('passwordError');
+                }
+
+                if (password !== confirmPassword) {
+                    ShowError('confirmPasswordError', 'Passwords do not match!');
+                    valid = false;
+                } else {
+                    HideError('confirmPasswordError');
+                }
+
+                if (valid) {
+                    document.cookie = `email=$email;`;
+                    document.cookie = `password=$password;`;
+                    Register(email, password);
+                }
+            });
+        }
+
+        function Register(email, password) {
+            var toSend = new FormData();
+            toSend.append("email", email);
+            toSend.append("password", password);
+
+            $.post({
+                url: "/User/Create",
+                data: toSend,
+                Accept: '/',
+                processData: false,
+                contentType: false,
+                async: false
+            }).done(function () {
+                // Optionally notify user that registration is successful
+                alert('Registration successful! You can now log in.');
+            });
+        }
+
+        function LogIn() {
+            var toSend = new FormData();
+            toSend.append("email", $("#loginEmail").val());
+            toSend.append("password", $("#loginPassword").val());
+
+            $.post({
+                url: "/User/Login",
+                data: toSend,
+                Accept: '/',
+                processData: false,
+                contentType: false,
+                async: false
+            }).done(function () {
+                $.get({
+                    url: "/User/GetUser",
+                    success: function (data) {
+                        userID = data.userID;
+                        if (userID != -1) {
+                            localStorage.setItem('userID', userID);
+                            localStorage.setItem('email', $("#loginEmail").val());
+                            localStorage.setItem('password', $("#loginPassword").val());
+                            window.location.href = 'index.html';
+                        } else {
+                            alert("Wrong email address or password!");
+                        }
+                    },
+                    async: false
+                });
+            });
+        }
+
+        var userID = -1;
+
+        $(document).ready(function () {
+            $('#backToHomeBtn').click(function () {
+                window.location.href = 'index.html';
+            });
+
+            $('#backBtn').click(function () {
+                window.location.href = 'register.html';
+            });
+
+            $('#showLoginBtn').click(function () {
+                $('#loginModal').modal('show');
+                $('#registrationForm').addClass('d-none');
+                $('#registerHeading').addClass('d-none');
+                $('#backToHomeBtn').addClass('d-none');
+            });
+
+            $('#loginButton').click(function () {
+                window.location.href = 'index.html';
+            });
+
+            SaveToCookieAndRedirect();
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

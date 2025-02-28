@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autósiskola Teszt</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" 
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" 
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container" style="max-width: 650px;">
+        <h1>Autósiskola Teszt</h1>
+        <input type="text" id="username" placeholder="Add meg a neved">
+        <button id="generateQuestions">Kérdések generálása</button>
+        <p style="display: none;" id="timer">Idő: 5:00</p>
+        <div id="quiz-container" style="display: none;"></div>
+        <div id="result"></div>
+        <div id="correct-answers" style="display: none;"></div>
+        <div id="scoreContainer"></div>
+        <div id="help-container" style="display: none;">
+            <h2>Válassz segítséget:</h2>
+            <select id="help-category">
+                <option value="rules">Paragrafusok</option>
+                <option value="signs">Táblák</option>
+                <option value="situations">Szituációk</option>
+            </select>
+            <div id="help-content"></div>
+        </div>
+        <div class="button-container" style="margin-left: 20px;">
+            <button id="scoreButton" style="background-color: deepskyblue;" onclick="listScore();">Eredmények kilistázása</button>
+            <button id="help-button" style="background-color: orange;">Segítség megjelenítése</button>
+        </div>
+        <div class="button-generate-container">
+            <button id="submit" style="display: none; background-color: forestgreen;">Eredmény</button>
+            <button id="show-answers" style="display: none; background-color: purple;">Helyes válaszok</button>
+            <button id="restart" style="display: none; background-color: orangered;">Újraindítás</button>
+            <button id="backButton" style="display: none; background-color: darkred;" onclick="BackToHomePage();">Visszalépés a főoldalra</button>
+        </div>
+    </div>
+    <a href="#" style="text-decoration:underline; display: none;" id="registerLink" data-toggle="modal" data-target="#registerModal" onclick="Redirect();">Register</a>
+    <a href="#" style="text-decoration: underline; display: none;" id="loginLink" data-toggle="modal" data-target="#loginModal">Login</a>
+    <a href="#" style="text-decoration: underline; display: none;" id="logOutLink" onclick="LogOut();">Logout</a>
+    <!-- Login modal window -->
+    <div style="margin-top: 200px; visibility: hidden" class="modal" id="loginModal">
+        <h1 style="text-align: center; color:black; font-size: 40px;" class="modal-title">Login</h1>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="loginForm">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary" onclick="LogIn();">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function LogOut() {
+            $.post({
+                url: "/User/LogOut",
+                Accept: '/',
+                processData: false,
+                contentType: false,
+                async: false
+            });
+            location.reload();
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
