@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autóiskola Teszt</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" 
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" 
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container" style="max-width: 650px;">
+        <h1 id="maintitle">Autóiskola Teszt</h1>
+        <input type="text" id="username" placeholder="Add meg a neved">
+        <p style="display: none;" id="timer">Idő: 5:00</p>
+        <div id="quiz-container" style="display: none;"></div>
+        <div id="result"></div>
+        <div id="correct-answers" style="display: none;"></div>
+        <div id="scoreContainer"></div>
+        <div id="quiz-category-container" style="margin-top: 10px;">
+            <h2 id="secondarytitle">Válaszd ki a kérdések kategóriáját:</h2>
+            <select id="quiz-category">
+                <option value="Minden">Minden</option>
+                <option value="Paragrafusok">Paragrafusok</option>
+                <option value="Táblák">Táblák</option>
+                <option value="Szituációk">Szituációk</option>
+            </select>
+            <button id="startQuizButton" style="background-color: forestgreen;">Teszt indítása</button>
+        </div>        
+        <div id="help-container" style="display: none;">
+            <h2>Válassz segítséget:</h2>
+            <select id="help-category">
+                <option value="Minden">Minden</option>
+                <option value="Paragrafusok">Paragrafusok</option>
+                <option value="Táblák">Táblák</option>
+                <option value="Szituációk">Szituációk</option>
+            </select>
+            <div id="help-content"></div>
+        </div>
+        <div class="button-container" style="margin-left: 20px;">
+            <button id="scoreButton" style="background-color: deepskyblue;" onclick="listScore();">Eredmények kilistázása</button>
+            <button id="help-button" style="background-color: orange;">Segítség megjelenítése</button>
+            <button id="clearScores" style="background-color: red;">Eredmények törlése</button>
+        </div>
+        <div class="button-generate-container">
+            <button id="submit" style="display: none; background-color: forestgreen;">Eredmény</button>
+            <button id="show-answers" style="display: none; background-color: purple;">Helyes válaszok</button>
+            <button id="restart" style="display: none; background-color: orangered;">Újraindítás</button>
+            <button id="backButton" style="display: none; background-color: darkred;" onclick="BackToHomePage();">Visszalépés a főoldalra</button>
+        </div>
+        <div class="image-container">
+            <img src="images/logo.png" id="image" alt="Autósiskola logó" width="600px" height="300px">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
