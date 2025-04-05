@@ -143,7 +143,7 @@ function startQuiz(filteredQuestions) {
 });
 
 function loadQuestionsFromURL(callback) {
-  const fileUrl = "https://yourusername.github.io/your-repository/files/questions.json";
+  const fileUrl = "https://topertz.github.io/Driving_School/questions.json";
 
   fetch(fileUrl)
       .then(response => response.json())
