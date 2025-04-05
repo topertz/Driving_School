@@ -103,7 +103,7 @@ let screenRefreshed = false;
         return;
     }
 
-    loadQuestionsFromFile(function(questions) {
+    loadQuestionsFromUrl(function(questions) {
       startQuiz(filteredQuestions);
   });
   startQuiz(filteredQuestions);
@@ -142,7 +142,7 @@ function startQuiz(filteredQuestions) {
     });
 });
 
-function loadQuestionsFromURL(callback) {
+function loadQuestionsFromUrl(callback) {
   const fileUrl = "https://topertz.github.io/Driving_School/questions.json";
 
   fetch(fileUrl)
