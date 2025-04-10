@@ -1,5 +1,4 @@
-{
-    "helpContent": [
+[
       {
         "title": "Jobbkéz-szabály",
         "description": "Olyan útkereszteződésben, ahol sem közúti jelzések, sem forgalomirányító fényjelző készülék, sem rendőr nem szabályozza az áthaladást, az elsőbbséget a jobb kéz felől érkező jármű részére kell biztosítani. Ez az ún. „alapértelmezett” elsőbbségi szabály."
@@ -40,5 +39,4 @@
         "title": "Gyalogos átkelőhely",
         "description": "Kijelölt gyalogos-átkelőhelynél a gyalogos részére elsőbbséget kell biztosítani, ha az áthaladási szándék egyértelmű. A járművezetőnek csökkentenie kell a sebességét, és szükség esetén meg is kell állnia az elsőbbség megadásához."
       }
-    ]
-  }  
+]
