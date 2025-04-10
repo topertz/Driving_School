@@ -169,7 +169,7 @@ function loadQuestionsFromURL() {
       questionsUploaded = questions.length >= 27;
       const alertShownSession = sessionStorage.getItem("alertShown");
       if(!alertShownSession) {
-        alert("A kérdések sikeresen betöltődtek!");
+        //alert("A kérdések sikeresen betöltődtek!");
         sessionStorage.setItem("alertShown", "true");
       }
       $("#file-input").hide();
@@ -190,7 +190,7 @@ function loadHelpContentFromURL() {
       questionsUploaded = questions.length >= 27;
       const alertShownSession = sessionStorage.getItem("alertShown");
       if(!alertShownSession) {
-        alert("A kérdések sikeresen betöltődtek!");
+        //alert("A kérdések sikeresen betöltődtek!");
         sessionStorage.setItem("alertShown", "true");
       }
       $("#file-input").hide();
