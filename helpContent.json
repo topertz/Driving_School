@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Jobbkéz-szabály",
+    "description": "Olyan útkereszteződésben, ahol sem közúti jelzések, sem forgalomirányító fényjelző készülék, sem rendőr nem szabályozza az áthaladást, az elsőbbséget a jobb kéz felől érkező jármű részére kell biztosítani. Ez az ún. „alapértelmezett” elsőbbségi szabály."
+  },
+  {
+    "title": "Rendőr irányítása",
+    "description": "Forgalmat irányító rendőr jelzései elsőbbséget élveznek minden más forgalmi irányító eszközzel (táblák, lámpák) szemben. A rendőr testtartása alapján: ha szemből vagy hátulról látható, akkor az adott irányból érkezők megállási kötelezettséggel bírnak (tilos az áthaladás). Ha oldalról látható, az adott irányból érkezők szabadon áthaladhatnak. Kézmozdulatai kiegészíthetik vagy felülírhatják ezt – például ha kinyújtott kézzel irányt mutat vagy megállásra szólít fel."
+  },
+  {
+    "title": "Elsőbbség főúton",
+    "description": "A főútvonalon közlekedő járművek elsőbbséget élveznek az arról letérő vagy oda becsatlakozó mellékutakról érkezőkkel szemben. A főútvonalat sárga színű rombusz alakú tábla jelzi, amely az elsőbbség viszonyait egyértelműsíti."
+  },
+  {
+    "title": "Stop tábla",
+    "description": "A „STOP” feliratú nyolcszög alakú tábla teljes, tényleges megállást ír elő – még abban az esetben is, ha a kereszteződés látszólag szabad. A járműnek a tábla vagy útburkolati jel vonalában meg kell állnia, és csak a forgalmi viszonyok felmérése után haladhat tovább."
+  },
+  {
+    "title": "Körforgalom",
+    "description": "Körforgalomba történő behajtás előtt elsőbbséget kell adni a körforgalomban már bent lévő járművek részére, amennyiben ezt \"Elsőbbségadás kötelező\" tábla is jelzi. A körforgalomban haladók mindig elsőbbséget élveznek."
+  },
+  {
+    "title": "Gyorshajtás",
+    "description": "A megengedett legnagyobb sebesség túllépése (gyorshajtás) szigorúan tilos, még akkor is, ha a forgalom ténylegesen ennél gyorsabb tempóban halad. A sebességhatárokat a táblák, valamint a lakott terület jellege határozza meg – azok túllépése szabálysértésnek minősül."
+  },
+  {
+    "title": "Villamos elsőbbsége",
+    "description": "A villamos – különösen útkereszteződésben – elsőbbséget élvez más járművekkel szemben, még akkor is, ha jobbról érkezik másik jármű. Kivételt képez, ha a jelzések (pl. elsőbbségadás tábla, rendőr, lámpa) ettől eltérő elsőbbségi viszonyt határoznak meg."
+  },
+  {
+    "title": "Útszűkület",
+    "description": "Szűk útszakasz esetén – ahol két jármű nem fér el egymás mellett – a táblák határozzák meg, hogy melyik irányból érkezőknek van elsőbbsége. Ha nincs jelzés, akkor az a jármű élvez elsőbbséget, amelynek irányából az akadály nem található az út jobb szélén."
+  },
+  {
+    "title": "Felváltott haladás (zipzár-elv)",
+    "description": "A „zipzár-elv” értelmében szűkülő útszakaszon a járművek felváltva, egymást beengedve haladnak tovább. A szabály célja a forgalom folyamatosságának biztosítása, és a torlódások csökkentése – különösen sávbeszűkülés esetén."
+  },
+  {
+    "title": "Gyalogos átkelőhely",
+    "description": "Kijelölt gyalogos-átkelőhelynél a gyalogos részére elsőbbséget kell biztosítani, ha az áthaladási szándék egyértelmű. A járművezetőnek csökkentenie kell a sebességét, és szükség esetén meg is kell állnia az elsőbbség megadásához."
+  }
+] 
