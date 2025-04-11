@@ -574,7 +574,7 @@ function checkAnswers() {
   let percentage = ((score / totalPoints) * 100).toFixed(2);
   let message = percentage >= 60 ? `Gratulálok, sikerült a ${selectedCategory} teszt!` : "Sajnálom, nem sikerült! Próbáld meg újra.";
 
-  const previousStatus = localStorage.getItem("userTestStatus");
+  /*const previousStatus = localStorage.getItem("userTestStatus");
   if (percentage < 60) {
     localStorage.setItem("userTestStatus", "incomplete");
   } else {
@@ -595,7 +595,7 @@ function checkAnswers() {
     questionCount = halfPointsQuestions.length;
   }
   shuffledQuestions = getRandomQuestions(filteredQuestions, questionCount, 55);
-  localStorage.setItem("userTestStatus", "incomplete");
+  localStorage.setItem("userTestStatus", "incomplete");*/
 
   resultContainer.innerHTML = `Eredmény: ${score} / ${totalPoints} pont (${percentage}%) <br> ${message}`;
   resultContainer.style.display = "block";
