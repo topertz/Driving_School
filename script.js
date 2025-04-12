@@ -602,7 +602,7 @@ function checkAnswers() {
   clearInterval(timerInterval);
 
   let percentage = ((score / totalPoints) * 100).toFixed(2);
-  let message = percentage >= 60 ? `Gratulálok, sikerült a ${selectedCategory} teszt!` : "Sajnálom, nem sikerült! Próbáld meg újra.";
+  let message = percentage >= 90 ? `Gratulálok, sikerült a ${selectedCategory} teszt!` : "Sajnálom, nem sikerült! Próbáld meg újra.";
 
   /*const previousStatus = localStorage.getItem("userTestStatus");
   if (percentage < 60) {
