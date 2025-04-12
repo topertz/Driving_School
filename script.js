@@ -640,19 +640,20 @@ function checkAnswers() {
 }
 
 function toggleCorrectAnswers() {
-    if (answersVisible) {
-        hideAnswers();
-        showAnswersButton.textContent = "Helyes Válaszok";
-    } else {
-        showCorrectAnswers();
-        showAnswersButton.textContent = "Elrejtés";
-    }
-    answersVisible = !answersVisible;
+  if (answersVisible) {
+      hideAnswers();
+      showAnswersButton.textContent = "Helyes Válaszok";
+  } else {
+      showCorrectAnswers();
+      showAnswersButton.textContent = "Elrejtés";
+  }
+  answersVisible = !answersVisible;
 }
 
 function showCorrectAnswers() {
-    markAnswersInQuiz(true);
-    clearInterval(timerInterval);
+  submitButton.style.display = "none";
+  markAnswersInQuiz(true);
+  clearInterval(timerInterval);
 }
 
 function clearSelections() {
