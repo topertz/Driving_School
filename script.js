@@ -33,11 +33,7 @@ let screenRefreshed = false;
 
 
   $(document).ready(function () {
-    let screenRefreshed = false;
-    let categories = [];
     let helpContent = [];
-    let questionsLoaded = false;
-    let questionsUploaded = false;
 
     function loadQuestionsFromLocalStorage() {
         const storedQuestions = localStorage.getItem("questions");
