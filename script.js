@@ -155,13 +155,8 @@ function startQuiz(filteredQuestions) {
 });
 
 window.onload = function() {
-  const alreadyRefreshed = sessionStorage.getItem("alreadyRefreshed");
-
-  if (!alreadyRefreshed) {
-    loadQuestionsFromURL(); // csak egyszer töltjük be és frissítünk
-  } else {
-    loadHelpContentFromURL(); // ez futhat tovább
-  }
+  loadQuestionsFromURL();
+  loadHelpContentFromURL();
 };
 
 function loadQuestionsFromURL() {
@@ -172,20 +167,13 @@ function loadQuestionsFromURL() {
       questions = data;
       localStorage.setItem("questions", JSON.stringify(questions));
       questionsUploaded = questions.length >= 27;
-
-      // Először megnézzük, hogy ez az első betöltés-e
-      const alreadyRefreshed = sessionStorage.getItem("alreadyRefreshed");
-
-      if (!alreadyRefreshed) {
-        sessionStorage.setItem("alreadyRefreshed", "true");
-        location.reload(); // 🔁 Automatikus frissítés
-      } else {
-        // Ha már frissítettük, nem csinálunk semmit extra
-        document.getElementById("startQuizButton").disabled = false;
-        $("#file-input").hide();
-        $("#loadButton").hide();
+      const alertShownSession = sessionStorage.getItem("alertShown");
+      if(!alertShownSession) {
         alert("A kérdések sikeresen betöltődtek!");
+        sessionStorage.setItem("alertShown", "true");
       }
+      $("#file-input").hide();
+      $("#loadButton").hide();
     })
     .catch(error => {
       console.error("Hiba a fájl letöltése közben:", error);
