@@ -34,7 +34,6 @@ let screenRefreshed = false;
 
   $(document).ready(function () {
     let screenRefreshed = false;
-    let questions = [];
     let categories = [];
     let helpContent = [];
     let questionsLoaded = false;
