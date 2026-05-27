@@ -4,7 +4,9 @@ Main page
 
 ![Driving School application](image/driving_school_main.png)
 
-<div align="center">![Driving School application](image/driving_school_test.png)</div>
+<div align="center">
+  <img src="image/driving_school_test.png" alt="Driving School application" />
+</div>
 
 ![Driving School application](image/good_and_bad_answers.png)
 
