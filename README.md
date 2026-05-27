@@ -1,6 +1,6 @@
 This project was created for learning and practicing core web development concepts and basic admin-style data management.
 
-### Main page
+###### Main page
 
 <div align="center">
   <img src="image/driving_school_main.png" alt="Driving School application" style="width: 90%" />
