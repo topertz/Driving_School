@@ -3,23 +3,23 @@ This project was created for learning and practicing core web development concep
 Main page
 
 <div align="center">
-  <img src="image/driving_school_main.png" alt="Driving School application" style="width: 100%" />
+  <img src="image/driving_school_main.png" alt="Driving School application" style="width: 90%" />
 </div>
 
 Sharp test
 
 <div align="center">
-  <img src="image/driving_school_test.png" alt="Driving School application" style="width: 100%" />
+  <img src="image/driving_school_test.png" alt="Driving School application" style="width: 90%" />
 </div>
 
 Good and bad answers
 
 <div align="center">
-  <img src="image/good_and_bad_answers.png" alt="Driving School application" style="width: 100%" />
+  <img src="image/good_and_bad_answers.png" alt="Driving School application" style="width: 90%" />
 </div>
 
 Hint answers
 
 <div align="center">
-  <img src="image/hint_answers.png" alt="Driving School application" style="width: 100%" />
+  <img src="image/hint_answers.png" alt="Driving School application" style="width: 90%" />
 </div>
