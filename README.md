@@ -3,7 +3,7 @@ This project was created for learning and practicing core web development concep
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Main page</b></p>
 
 <div align="center">
-  <img src="image/driving_school_main.png" alt="Driving School application" width="90%" />
+  <img src="image/driving_school_main.png" alt="Driving School application" width="100%" />
 </div>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Sharp test/b></p>
@@ -15,11 +15,11 @@ This project was created for learning and practicing core web development concep
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Good and bad answers</b></p>
 
 <div align="center">
-  <img src="image/good_and_bad_answers.png" alt="Driving School application" width="90%" />
+  <img src="image/good_and_bad_answers.png" alt="Driving School application" width="100%" />
 </div>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Hint answers</b></p>
 
 <div align="center">
-  <img src="image/hint_answers.png" alt="Driving School application" width="90%" />
+  <img src="image/hint_answers.png" alt="Driving School application" width="100%" />
 </div>
