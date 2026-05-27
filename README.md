@@ -6,7 +6,7 @@ This project was created for learning and practicing core web development concep
   <img src="image/driving_school_main.png" alt="Driving School application" width="100%" />
 </div>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Sharp test/b></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Sharp test</b></p>
 
 <div align="center">
   <img src="image/driving_school_test.png" alt="Driving School application" width="50%" />
