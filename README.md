@@ -1,3 +1,11 @@
 This project was created for learning and practicing core web development concepts and basic admin-style data management.
 
-![Driving School application](image/driving.jpg)
+Main page
+
+![Driving School application](image/driving_school_main.png)
+
+![Driving School application](image/driving_school_test.png)
+
+![Driving School application](image/good_and_bad_answers.png)
+
+![Driving School application](image/hint_answers.png)
