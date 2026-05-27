@@ -4,7 +4,7 @@ Main page
 
 ![Driving School application](image/driving_school_main.png)
 
-![Driving School application](image/driving_school_test.png)
+<center>![Driving School application](image/driving_school_test.png)</center>
 
 ![Driving School application](image/good_and_bad_answers.png)
 
