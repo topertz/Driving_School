@@ -7,7 +7,7 @@ Main page
 Sharp test
 
 <div align="center">
-  <img src="image/driving_school_test.png" alt="Driving School application" style="width: 1000" />
+  <img src="image/driving_school_test.png" alt="Driving School application" style="width: 90%" />
 </div>
 
 Good and bad answers
