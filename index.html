@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driving School Test</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" 
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" 
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container" style="max-width: 650px;">
+        <button id="loadButton" style="display: none;" onclick="loadQuestionsFromURL(true)">Load questions</button>
+        <h1 id="maintitle">Driving School Test</h1>
+        <input type="text" id="username" placeholder="Type your name">
+        <p style="display: none;" id="timer">Time: 5:00</p>
+        <div id="quiz-container" style="display: none;"></div>
+        <div id="result"></div>
+        <div id="correct-answers" style="display: none;"></div>
+        <div id="scoreContainer"></div>
+        <div id="quiz-category-container" style="margin-top: 10px;">
+            <h2 id="secondarytitle">Select the category of questions:</h2>
+            <select id="quiz-category">
+                <option value="All">All</option>
+                <option value="Paragraphs">Paragraphs</option>
+                <option value="Signs">Signs</option>
+                <option value="Situations">Situations</option>
+            </select>
+            <button id="startQuizButton" style="background-color: forestgreen;">Start test</button>
+        </div>        
+        <div id="help-container" style="display: none;">
+            <h2>Choose help:</h2>
+            <select id="help-category">
+                <option value="All">All</option>
+                <option value="Paragraphs">Paragraphs</option>
+                <option value="Signs">Signs</option>
+                <option value="Situations">Situations</option>
+                <option value="Basic concepts">Basic concepts</option>
+            </select>
+            <div id="help-content"></div>
+        </div>
+        <div id="score-filter-container" style="margin-top: 10px; display: none;">
+            <h2>Filter results by category:</h2>
+            <select id="score-category">
+                <option value="All">All</option>
+                <option value="Paragraphs">Paragraphs</option>
+                <option value="Signs">Signs</option>
+                <option value="Situations">Situations</option>
+            </select>
+        </div>
+        <div class="button-container" style="margin-left: 20px;">
+            <button id="scoreButton" style="background-color: deepskyblue;" onclick="listScore();">Listing results</button>
+            <button id="help-button" style="background-color: orange;">Show help</button>
+            <button id="clearScores" style="background-color: red;">Delete results</button>
+        </div>
+        <div class="button-generate-container">
+            <button id="submit" style="display: none; background-color: forestgreen;">Result</button>
+            <button id="show-answers" style="display: none; background-color: purple;">Correct answers</button>
+            <button id="restart" style="display: none; background-color: orangered;">Restart</button>
+            <button id="backButton" style="display: none; background-color: darkred;" onclick="BackToHomePage();">Return to the main page</button>
+        </div>
+        <div class="image-container">
+            <img src="images/logo.png" id="image" alt="Autósiskola logó" width="600" height="300">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

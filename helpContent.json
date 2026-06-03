@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Right-hand rule",
+    "description": "At an intersection where neither road signs, traffic lights, nor a police officer regulate the passage, priority must be given to the vehicle approaching from the right. This is the so-called „default” priority rule."
+  },
+  {
+    "title": "Police control",
+    "description": "Traffic police signals have priority over all other traffic control devices (signs, lights). Based on the police officer's posture: if he is visible from the front or from behind, people coming from that direction are obliged to stop (passing is prohibited). If he is visible from the side, people coming from that direction are free to pass. His hand gestures can supplement or override this - for example, if he points in a direction with an outstretched hand or calls for a stop."
+  },
+  {
+    "title": "Priority on main road",
+    "description": "Vehicles traveling on the main road have priority over those coming from side roads that branch off from it or connect to it. The main road is marked with a yellow diamond-shaped sign that clarifies the priority relations."
+  },
+  {
+    "title": "Stop sign",
+    "description": "An octagonal sign with the word „STOP” requires a complete, actual stop – even if the intersection appears clear. The vehicle must stop at the line of the sign or road marking and may only proceed after assessing the traffic conditions."
+  },
+  {
+    "title": "Roundabout",
+    "description": "Before entering a roundabout, you must give way to vehicles already in the roundabout, if this is indicated by the \"Giving way required\" sign. Vehicles driving in a roundabout always have priority."
+  },
+  {
+    "title": "Speeding",
+    "description": "Exceeding the maximum permitted speed (speeding) is strictly prohibited, even if traffic is actually going faster. Speed ​​limits are determined by signs and the nature of the built-up area - exceeding them is considered an offence."
+  },
+  {
+    "title": "Tram priority",
+    "description": "Trams have priority over other vehicles, especially at intersections, even if another vehicle is approaching from the right. This is an exception if signs (e.g. priority sign, policeman, light) specify a different priority relationship."
+  },
+  {
+    "title": "Bottleneck",
+    "description": "In the case of a narrow section of road – where two vehicles cannot fit side by side – signs determine which direction has priority. If there is no sign, the vehicle from whose direction the obstacle is not located on the right edge of the road has priority."
+  },
+  {
+    "title": "Alternate progress (zipper principle)",
+    "description": "According to the “zipper principle”, vehicles proceed in turns on a narrowing road section, letting each other in. The aim of the rule is to ensure the continuity of traffic and reduce congestion – especially in the event of lane narrowing."
+  },
+  {
+    "title": "Pedestrian crossing",
+    "description": "At a designated pedestrian crossing, the pedestrian must be given priority if the intention to cross is clear. The driver must reduce speed and, if necessary, stop to give priority."
+  }
+] 

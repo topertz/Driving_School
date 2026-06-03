@@ -1,0 +1,872 @@
+[
+  {
+    "question": "The duty to give way means that: [2 point]",
+    "options": [
+      "A road user must act in such a way that the person who has the right of way does not have to suddenly change his or her direction or speed.",
+      "A road user is obliged to act in such a way that the person who has the right of way does not have to suddenly change direction, but may change his/her speed.",
+      "A road user is obliged to act in such a way that the person who has the right of way does not have to change her speed, but may change her direction of travel."
+    ],
+    "answer": "A road user must act in such a way that the person who has the right of way does not have to suddenly change his or her direction or speed.",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "It is mandatory to turn on the following while driving: [2 point]",
+    "options": [
+      "the interior lighting of the vehicle",
+      "the high beams",
+      "dipped headlights or equivalent lighting"
+    ],
+    "answer": "dipped headlights or equivalent lighting",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "For the driver: [2 point]",
+    "options": [
+      "You are allowed to use a phone while driving.",
+      "It is forbidden to use a telephone while driving, except for making phone calls using the \"hands-free\" system.",
+      "járművezetés közben tilos rádiót hallgatnia"
+    ],
+    "answer": "It is forbidden to use a telephone while driving, except for making phone calls using the \"hands-free\" system.",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "If traffic lanes are not marked on the roadway, that part of the roadway shall be considered a traffic lane which allows: [2 point]",
+    "options": [
+      "three- or multi-wheeled vehicles can travel in a row behind each other",
+      "vehicles with at least two wheels can travel in a row behind each other",
+      "only two-wheeled vehicles may travel in a row behind each other"
+    ],
+    "answer": "three- or multi-wheeled vehicles can travel in a row behind each other",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "The vehicle being overtaken is prohibited from: [2 point]",
+    "options": [
+      "obstruct the overtaking in any way, other than by increasing the speed",
+      "increase your speed and obstruct overtaking in any way",
+      "to reduce speed"
+    ],
+    "answer": "increase your speed and obstruct overtaking in any way",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "The driver may only drive at a speed sufficient to be able to stop her vehicle within the following distance: [2 point]",
+    "options": [
+      "20 m, on motorways and expressways 50 m",
+      "30 m",
+      "which has a viewn"
+    ],
+    "answer": "which has a view",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "The driver of the vehicle turning left: [2 point]",
+    "options": [
+      "must only give way to vehicles travelling on the opposite side",
+      "must give way to oncoming motor vehicles and non-motorized vehicles, trams travelling in both directions and pedestrians crossing the road",
+      "must only give way to oncoming vehicles"
+    ],
+    "answer": "must give way to oncoming motor vehicles and non-motorized vehicles, trams travelling in both directions and pedestrians crossing the road",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "If the driver of a vehicle pulls to the edge of the roadway or sidewalk with the intention of stopping or waiting: [2 point]",
+    "options": [
+      "is not required to indicate a change in direction",
+      "is obliged to indicate a change in direction",
+      "You are only required to signal a change of direction in a built-up area."
+    ],
+    "answer": "is obliged to indicate a change in direction",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "Participant in the road accident: [2 point]",
+    "options": [
+      "may not take any action to save the injured person if it would hinder the investigation of the road accident",
+      "is obliged to allow the restoration of road traffic, but only if she caused the road accident",
+      "is obliged to take appropriate measures to save a person or property in danger as a result of a road accident"
+    ],
+    "answer": "is obliged to take appropriate measures to save a person or property in danger as a result of a road accident",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "The meaning of a flashing yellow light signal used alone or in conjunction with another road sign is as follows: [2 point]",
+    "options": [
+      "the driver is obliged to stop her vehicle in front of the bicycle crossing",
+      "The driver must give priority to pedestrians at a pedestrian crossing.",
+      "warns of the need for increased caution"
+    ],
+    "answer": "awarns of the need for increased caution",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "Regulation of road traffic with road signs and road signalling devices: [2 point]",
+    "options": [
+      "has precedence over the general regulations of road traffic",
+      "only in residential, pedestrian and school zones is it superior to the general regulation of road traffic",
+      "does not override the general regulations of road traffic"
+    ],
+    "answer": "has precedence over the general regulations of road traffic",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "If the driver of a vehicle required to wear safety clothing is outside the vehicle on the roadway during an emergency stop, especially due to a breakdown in the vehicle or as a result of a traffic accident, he or she must: [2 point]",
+    "options": [
+      "Place a white, non-glare light 20 m behind the vehicle",
+      "call the towing service immediately",
+      "wear safety clothing"
+    ],
+    "answer": "wear safety clothing",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "By bicycle mainly: [1 point]",
+    "options": [
+      "you have to walk on the sidewalk",
+      "must ride on a bike path",
+      "you must drive on the left side of the road"
+    ],
+    "answer": "must ride on a bike path",
+    "points": 1,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "A vehicle is considered technically unfit for road use if: [1 point]",
+    "options": [
+      "different tires were mounted on the same chassis",
+      "the lowest point of the active beam of the side lights is more than 350 mm above the road surface",
+      "the high beams cannot be switched to side lights"
+    ],
+    "answer": "different tires were mounted on the same chassis",
+    "points": 1,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "A vehicle is considered technically unfit for road use if: [1 point]",
+    "options": [
+      "a part of the exhaust system is leaking, causing exhaust gas to leak into the passengers, driver or cargo, or causing excessive noise",
+      "the right front rearview mirror cannot be adjusted from the driver's seat",
+      "cannot reach a speed of at least 80 km/h"
+    ],
+    "answer": "a part of the exhaust system is leaking, causing exhaust gas to leak into the passengers, driver or cargo, or causing excessive noise",
+    "points": 1,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "The sidewalk: [2 point]",
+    "options": [
+      "only on roads or sections of roads marked with appropriate signs",
+      "the right-hand side of the road; where there is none, the sidewalk is the one-meter-wide right-hand edge of the roadway",
+      "a part of a road intended primarily for pedestrian traffic, usually separated from the roadway by a difference in level or in some other way"
+    ],
+    "answer": "a part of a road intended primarily for pedestrian traffic, usually separated from the roadway by a difference in level or in some other way",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "If the road surface is covered with a continuous layer of snow or ice, or its surface is icy, the driver of a vehicle of category M1 and N1 may only use such a vehicle in road traffic if: [2 point]",
+    "options": [
+      "all its axles are equipped with winter tires",
+      "its drive axle is equipped with winter tires",
+      "has accident insurance"
+    ],
+    "answer": "all its axles are equipped with winter tires",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "When passing a stationary public transport vehicle, the driver must take into account that people may run onto the roadway and: [2 point]",
+    "options": [
+      "therefore you should always drive at a maximum speed of 15 km/h",
+      "therefore you should always stop your vehicle",
+      "must be driven in such a way as not to endanger persons"
+    ],
+    "answer": "must be driven in such a way as not to endanger persons",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "It is prohibited to overtake a vehicle if the driver of the vehicle in front signals a change of direction: [2 point]",
+    "options": [
+      "right",
+      "to the left, and in no case",
+      "to the left, and if it is not possible to overtake from the right, or if it is not possible to overtake in another free lane on the roadway designated in the same direction of travel"
+    ],
+    "answer": "to the left, and if it is not possible to overtake from the right, or if it is not possible to overtake in another free lane on the roadway designated in the same direction of travel",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "The driver, following the vehicle in front: [2 point]",
+    "options": [
+      "must maintain a following distance of at least 10 m",
+      "must maintain a following distance that is necessary to stop the vehicle from a speed of 60 km/h",
+      "must maintain a following distance that allows her to reduce her speed or stop the vehicle in time if the vehicle in front slows down or stops"
+    ],
+    "answer": "must maintain a following distance that allows her to reduce her speed or stop the vehicle in time if the vehicle in front slows down or stops",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "The driver of a vehicle turning right and a vehicle without an engine: [2 point]",
+    "options": [
+      "is obliged to give way to oncoming public transport vehicles if they turn left",
+      "Where it is permitted to drive on the left next to a tram, the tram must give way.",
+      "is obliged to give way to the first vehicle behind him/her"
+    ],
+    "answer": "is obliged to give way to the first vehicle behind him/her",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "It is forbidden to turn around with a vehicle: [2 point]",
+    "options": [
+      "on a one-way road",
+      "in a residential area",
+      "at all kinds of crossroads"
+    ],
+    "answer": "on a one-way road",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "A driver who intends to leave her vehicle in such a way that she will not be able to intervene immediately if necessary must: [2 point]",
+    "options": [
+      "always park your vehicle only in the designated parking area",
+      "ensure that your vehicle does not endanger the safety and continuity of road traffic, and that no other person can use your vehicle",
+      "to unload the things being transported from the vehicle"
+    ],
+    "answer": "ensure that your vehicle does not endanger the safety and continuity of road traffic, and that no other person can use your vehicle",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "It is forbidden to stop and wait with a vehicle: [2 point]",
+    "options": [
+      "at an intersection and within 15 m before the intersection boundary and 10 m after it",
+      "at all kinds of crossroads",
+      "at a road intersection and within a distance of 5 m before the intersection boundary and 5 m after it; this does not apply to a T-shaped intersection within a residential area on the opposite side of the confluence road"
+    ],
+    "answer": "at a road intersection and within a distance of 5 m before the intersection boundary and 5 m after it; this does not apply to a T-shaped intersection within a residential area on the opposite side of the confluence road",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "The driver is prohibited from overtaking if: [2 point]",
+    "options": [
+      "When overtaking, the vehicle following the vehicle that started overtaking first would be limited to a significantly lower speed.",
+      "a special vehicle is driving in front of it",
+      "if the driver of the vehicle being overtaken was not warned of this by sounding a warning signal in the village"
+    ],
+    "answer": "When overtaking, the vehicle following the vehicle that started overtaking first would be limited to a significantly lower speed.",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "In a vehicle used for passenger transport, in the places reserved for that purpose: [2 point]",
+    "options": [
+      "Persons over 15 years of age and taller than 160 cm can be transported",
+      "Passenger transport is only permitted up to the maximum permissible weight of the vehicle, while the number of people transported may be higher than the number of seats indicated in the registration certificate",
+      "Passenger transport is only permitted up to the permissible payload of the vehicle, and the number of people transported cannot exceed the number of seats indicated in the registration certificate."
+    ],
+    "answer": "Passenger transport is only permitted up to the permissible payload of the vehicle, and the number of people transported cannot exceed the number of seats indicated in the registration certificate.",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "The warning signal of the light signal device consists of two red lights placed next to each other, flashing alternately: [2 point]",
+    "options": [
+      "prohibits pedestrians from entering the roadway",
+      "obliges the driver to stop her vehicle in front of the traffic light",
+      "obliges the driver to reduce speed"
+    ],
+    "answer": "obliges the driver to stop her vehicle in front of the traffic light",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "If a tow rope is used to tow a vehicle: [1 point]",
+    "options": [
+      "its length must not be less than 1.5 m",
+      "the distance between vehicles must not be less than 2.5 m",
+      "the distance between vehicles must not be less than 2 m"
+    ],
+    "answer": "the distance between vehicles must not be less than 2.5 m",
+    "points": 1,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "A vehicle is considered technically unfit for road use if: [1 point]",
+    "options": [
+      "tears or damage can be seen on the outer surface of the tire, which obscures or damages the carcass",
+      "does not have at least one white searchlight",
+      "the high beams cannot be switched to side lights"
+    ],
+    "answer": "tears or damage can be seen on the outer surface of the tire, which obscures or damages the carcass",
+    "points": 1,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "A vehicle without an engine: [2 point]",
+    "options": [
+      "a trailer propelled by human or animal power, except for a mechanical or electric wheelchair for disabled persons",
+      "human or animal-powered vehicle, tram and trolleybus",
+      "also a vehicle whose unladen weight does not exceed 400 kg"
+    ],
+    "answer": "a trailer propelled by human or animal power, except for a mechanical or electric wheelchair for disabled persons",
+    "points": 2,
+    "category": "Paragraphs"
+  },
+  {
+    "question": "The road sign shown here: [2 point]",
+    "options": [
+      "warns of a railway crossing without a barrier",
+      "warns of the intersection of a public road and a tram line",
+      "warns of an intersection where the right of way is not regulated by traffic signs"
+    ],
+    "answer": "warns of an intersection where the right of way is not regulated by traffic signs",
+    "points": 2,
+    "image": "barrier.png",
+    "category": "Signs"
+  },
+  {
+    "question": "According to the road sign shown here, it is prohibited to: [2 point]",
+    "options": [
+      "to drive in by car or non-motorized vehicle",
+      "drive in with the indicated vehicle types",
+      "overtake with the indicated vehicle types"
+    ],
+    "answer": "drive in with the indicated vehicle types",
+    "points": 2,
+    "image": "three_ponged.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The signpost shown here indicates a location: [2 point]",
+    "options": [
+      "where a speed bump was built on the road",
+      "where it is allowed to cross the elevated tram track in a transverse direction",
+      "where it is permitted to wait partially perpendicular or diagonally on the sidewalk and indicates the manner in which the vehicle must wait on the sidewalk"
+    ],
+    "answer": "where it is permitted to wait partially perpendicular or diagonally on the sidewalk and indicates the manner in which the vehicle must wait on the sidewalk",
+    "points": 2,
+    "image": "parking.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The sign shown here with an additional sign means: [2 point]",
+    "options": [
+      "indicates a main road, mainly within a populated area, with an indication of the intersection and the actual shape of the main road and the subordinate road",
+      "indicates an intersection where the right of way is not regulated by traffic signs",
+      "indicates a subordinate road and intersection"
+    ],
+    "answer": "indicates a main road, mainly within a populated area, with an indication of the intersection and the actual shape of the main road and the subordinate road",
+    "points": 2,
+    "image": "main_road.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road sign shown here means: [2 point]",
+    "options": [
+      "One-way traffic",
+      "Direction sign",
+      "Mandatory direction of travel"
+    ],
+    "answer": "One-way traffic",
+    "points": 2,
+    "image": "one_way.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The roadblock barrier shown here: [2 point]",
+    "options": [
+      "indicates partial closure of the roadway; arrows point towards the open part of the roadway",
+      "indicates full-width closure of the roadway",
+      "indicates a one-way traffic section"
+    ],
+    "answer": "indicates partial closure of the roadway; arrows point towards the open part of the roadway",
+    "points": 2,
+    "image": "bend.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road sign shown here: [2 point]",
+    "options": [
+      "indicates the remaining distance to the point from which the sign under which it is placed is in effect",
+      "indicates the direction of the diversion route",
+      "indicates the section of road where the sign above it is in force"
+    ],
+    "answer": "indicates the remaining distance to the point from which the sign under which it is placed is in effect",
+    "points": 2,
+    "image": "arrow.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The symbol shown here must be used to mark: [2 point]",
+    "options": [
+      "bus carrying children",
+      "the section of road where children often stay (near school, kindergarten, playground, etc.)",
+      "a car transporting children"
+    ],
+    "answer": "the section of road where children often stay (near school, kindergarten, playground, etc.)",
+    "points": 2,
+    "image": "kids.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road sign shown here: [2 point]",
+    "options": [
+      "prohibits overtaking vehicles moving in a column",
+      "warns of road sections where congestion is likely to occur, especially in heavy traffic on long climbs, mountain passes, etc.",
+      "prohibits parallel traffic for passenger cars"
+    ],
+    "answer": "warns of road sections where congestion is likely to occur, especially in heavy traffic on long climbs, mountain passes, etc.",
+    "points": 2,
+    "image": "congestion.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The signboard shown here with an additional sign: [2 point]",
+    "options": [
+      "warns of the railway crossing 80 m away and the shape of the intersection of the road and the railway",
+      "warns of a traffic obstacle",
+      "warns of a level crossing between a road and a railway"
+    ],
+    "answer": "warns of the railway crossing 80 m away and the shape of the intersection of the road and the railway",
+    "points": 2,
+    "image": "railway.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road sign shown here means: [2 point]",
+    "options": [
+      "Entry by bus is prohibited.",
+      "It is allowed to enter by bus.",
+      "Bus lane"
+    ],
+    "answer": "Entry by bus is prohibited.",
+    "points": 2,
+    "image": "bus.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road sign shown here means: [2 point]",
+    "options": [
+      "Mandatory avoidance direction",
+      "Relief route direction",
+      "One-way traffic"
+    ],
+    "answer": "Relief route direction",
+    "points": 2,
+    "image": "rescue_route.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road sign shown here means: [2 point]",
+    "options": [
+      "Direction change sign",
+      "Mandatory direction of travel",
+      "Reserved traffic lanes"
+    ],
+    "answer": "Reserved traffic lanes",
+    "points": 2,
+    "image": "traffic_lanes.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road sign shown here means: [2 point]",
+    "options": [
+      "Recommended speeds",
+      "General maximum permitted speeds",
+      "Restrictions on traffic lanes"
+    ],
+    "answer": "Recommended speeds",
+    "points": 2,
+    "image": "speeds.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The additional sign shown here, placed below the prohibition sign: [2 point]",
+    "options": [
+      "limits the scope of the ban to vehicles whose maximum permissible total weight is less than the data indicated on the additional plate",
+      "limits the scope of the prohibition to vehicles whose maximum permissible total weight exceeds the data indicated on the additional plate; in the case of a vehicle combination, the combined weight of the vehicles forming the combination is the determining factor",
+      "indicates the maximum permissible load per dual axle of the vehicle"
+    ],
+    "answer": "limits the scope of the prohibition to vehicles whose maximum permissible total weight exceeds the data indicated on the additional plate; in the case of a vehicle combination, the combined weight of the vehicles forming the combination is the determining factor",
+    "points": 2,
+    "image": "exceeding.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road sign shown here means: [2 point]",
+    "options": [
+      "Waiting on the sidewalk is prohibited.",
+      "Gravel churning",
+      "Risk of tire damage"
+    ],
+    "answer": "Gravel churning",
+    "points": 2,
+    "image": "gravel.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road sign shown here: [2 point]",
+    "options": [
+      "draws attention to a piece of equipment at the meteorological station",
+      "draws attention to the proximity of the airport",
+      "draws attention to a section of road where road safety may be endangered by strong crosswinds"
+    ],
+    "answer": "draws attention to a section of road where road safety may be endangered by strong crosswinds",
+    "points": 2,
+    "image": "wind.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road sign shown here means: [2 point]",
+    "options": [
+      "Minimum permitted speed",
+      "Maximum permitted speed",
+      "Recommended speed"
+    ],
+    "answer": "Maximum permitted speed",
+    "points": 2,
+    "image": "largest.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road sign shown here means: [2 point]",
+    "options": [
+      "Minimum permitted speed",
+      "Maximum permitted speed",
+      "Recommended speed"
+    ],
+    "answer": "Minimum permitted speed",
+    "points": 2,
+    "image": "smallest.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road sign shown here means: [2 point]",
+    "options": [
+      "Road intersection sign",
+      "Dead end sign",
+      "No left turns allowed."
+    ],
+    "answer": "Dead end sign",
+    "points": 2,
+    "image": "dead_end.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road sign shown here: [2 point]",
+    "options": [
+      "indicates the place where a tram at a stop can be avoided from the left",
+      "provides information on how to avoid a road traffic obstacle",
+      "indicates the closure of the tramway"
+    ],
+    "answer": "indicates the place where a tram at a stop can be avoided from the left",
+    "points": 2,
+    "image": "from_the_left.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road marking shown here: [2 point]",
+    "options": [
+      "indicates an area where stopping is prohibited",
+      "separates the edge of the roadway from the bike path",
+      "indicates an area where waiting is prohibited"
+    ],
+    "answer": "indicates an area where waiting is prohibited",
+    "points": 2,
+    "image": "waiting.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road sign shown here: [2 point]",
+    "options": [
+      "warns of a place where planes fly low over the road",
+      "indicates an airport private road",
+      "prohibits the entry of motor vehicles and non-motorized vehicles into the airport area"
+    ],
+    "answer": "warns of a place where planes fly low over the road",
+    "points": 2,
+    "image": "airplane.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road sign shown here means: [2 point]",
+    "options": [
+      "Priority to oncoming traffic",
+      "Priority over oncoming traffic",
+      "Two-way traffic"
+    ],
+    "answer": "Priority to oncoming traffic",
+    "points": 2,
+    "image": "szembejovo.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road sign shown here: [2 point]",
+    "options": [
+      "instructs the driver to use winter tires on the designated road section",
+      "instructs the driver to use snow chains while driving on the designated road section; snow chains must be used on at least two wheels of the drive axle",
+      "informs the driver that there is a tire repair shop nearby"
+    ],
+    "answer": "instructs the driver to use snow chains while driving on the designated road section; snow chains must be used on at least two wheels of the drive axle",
+    "points": 2,
+    "image": "snow_chain.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The signboard shown here means: [2 point]",
+    "options": [
+      "Underpass or overpass",
+      "Motorway",
+      "Main road"
+    ],
+    "answer": "Autópálya",
+    "points": 2,
+    "image": "motorway.png",
+    "category": "Signs"
+  },
+  {
+    "question": "The road sign shown here means: [2 point]",
+    "options": [
+      "Class III public road",
+      "International route",
+      "Class II public road"
+    ],
+    "answer": "Class II public road",
+    "points": 3,
+    "image": "international.png",
+    "category": "Signs"
+  },
+  {
+    "question": "Entering the intersection first: [3 point]",
+    "options": [
+      "the green vehicle",
+      "the blue vehicle",
+      "the red vehicle"
+    ],
+    "answer": "the red vehicle",
+    "points": 3,
+    "image": "right_hand.png",
+    "category": "Situations"
+  },
+  {
+    "question": "If the traffic police officer's right arm is raised to the top center position and her left arm is raised to the side center position, this means \"Stop!\": [3 point]",
+    "options": [
+      "for the driver of the green vehicle",
+      "for the driver of the red and yellow vehicle",
+      "for pedestrians crossing behind the police officer"
+    ],
+    "answer": "for the driver of the red and yellow vehicle",
+    "points": 3,
+    "image": "police.png",
+    "category": "Situations"
+  },
+  {
+    "question": "What is the number of times your vehicle will pass through the intersection: [3 point]",
+    "options": [
+      "first",
+      "lastly",
+      "secondly"
+    ],
+    "answer": "lastly",
+    "points": 3,
+    "image": "preference.png",
+    "category": "Situations"
+  },
+  {
+    "question": "Vehicles pass through the intersection in the following order: [3 point]",
+    "options": [
+      "1. tram, 2. green, 3. blue, 4. yellow, 5. your vehicle",
+      "1. green, 2. tram, 3. blue, 4. yellow, 5. your vehicle",
+      "1. blue, 2. green, 3. yellow, 4. your vehicle, 5. tram"
+    ],
+    "answer": "1. green, 2. tram, 3. blue, 4. yellow, 5. your vehicle",
+    "points": 3,
+    "image": "tram.png",
+    "category": "Situations"
+  },
+  {
+    "question": "What is the number of times the red vehicle passes through the intersection: [3 point]",
+    "options": [
+      "first at the same time with the green vehicle",
+      "lastly",
+      "first at the same time as the blue vehicle"
+    ],
+    "answer": "lastly",
+    "points": 3,
+    "image": "board.png",
+    "category": "Situations"
+  },
+  {
+    "question": "The driver of the blue vehicle: [3 point]",
+    "options": [
+      "must give way to the driver of the red vehicle driving in the continuous lane into which she wants to pass",
+      "has priority over the driver of the red vehicle because she is driving in the lane designated for overtaking",
+      "has priority over the driver of the red vehicle because she is driving in the lane reserved for slow vehicles"
+    ],
+    "answer": "must give way to the driver of the red vehicle driving in the continuous lane into which she wants to pass",
+    "points": 3,
+    "image": "road_lane.png",
+    "category": "Situations"
+  },
+  {
+    "question": "Vehicles pass through the intersection in the following order: [3 point]",
+    "options": [
+      "1. your vehicle, 2. blue, 3. red",
+      "1. blue, 2. red, 3. your vehicle",
+      "1. blue, 2. your vehicle, 3. red"
+    ],
+    "answer": "1. blue, 2. red, 3. your vehicle",
+    "points": 3,
+    "image": "rule.png",
+    "category": "Situations"
+  },
+  {
+    "question": "What is the number of times your vehicle will pass through the intersection: [3 point]",
+    "options": [
+      "thirdly",
+      "secondly",
+      "first"
+    ],
+    "answer": "first",
+    "points": 3,
+    "image": "first.png",
+    "category": "Situations"
+  },
+  {
+    "question": "She crosses the intersection second: [3 point]",
+    "options": [
+      "the yellow vehicle",
+      "the green vehicle",
+      "the red vehicle"
+    ],
+    "answer": "the red vehicle",
+    "points": 3,
+    "image": "second.png",
+    "category": "Situations"
+  },
+  {
+    "question": "The vehicles pass around the obstacle in the following order: [3 point]",
+    "options": [
+      "1. red, 2. blue, 3. yellow, 4. green",
+      "1. blue, 2. green, 3. red, 4. yellow",
+      "1. blue, 2. red, 3. yellow, 4. green"
+    ],
+    "answer": "1. red, 2. blue, 3. yellow, 4. green",
+    "points": 3,
+    "image": "alternately.png",
+    "category": "Situations"
+  },
+  {
+    "question": "Vehicles pass through the intersection in the following order: [3 point]",
+    "options": [
+      "1. red and green at the same time, 2. your vehicle",
+      "1. your vehicle, 2. red and green at the same time",
+      "1. green, 2. your vehicle, 3. red"
+    ],
+    "answer": "1. red and green at the same time, 2. your vehicle",
+    "points": 3,
+    "image": "side_road.png",
+    "category": "Situations"
+  },
+  {
+    "question": "The last one to cross the intersection is: [3 point]",
+    "options": [
+      "your vehicle",
+      "the tram at the same time as your vehicle",
+      "the yellow vehicle"
+    ],
+    "answer": "your vehicle",
+    "points": 3,
+    "image": "rail.png",
+    "category": "Situations"
+  },
+  {
+    "question": "The green vehicle will pass through the intersection at what point: [3 point]",
+    "options": [
+      "thirdly",
+      "first",
+      "secondly"
+    ],
+    "answer": "secondly",
+    "points": 3,
+    "image": "green.png",
+    "category": "Situations"
+  },
+  {
+    "question": "If the traffic light indicating the need to leave the intersection is on: [3 point]",
+    "options": [
+      "both tram drivers have priority over other vehicles",
+      "The driver of a red vehicle turning left must give way to the oncoming green and yellow vehicles, as well as to both trams.",
+      "the driver of the red vehicle turning left has priority over the oncoming green and yellow vehicles, as well as both trams"
+    ],
+    "points": 3,
+    "image": "left.png",
+    "category": "Situations",
+    "answer": "the driver of the red vehicle turning left has priority over the oncoming green and yellow vehicles, as well as both trams"
+  },
+  {
+    "question": "She crosses the intersection second: [3 point]",
+    "options": [
+      "the red vehicle",
+      "the blue vehicle",
+      "your vehicle"
+    ],
+    "answer": "the red vehicle",
+    "points": 3,
+    "image": "red.png",
+    "category": "Situations"
+  },
+  {
+    "question": "Vehicles pass through the intersection in the following order: [3 point]",
+    "options": [
+      "1. blue at the same time as your vehicle, 2. green, 3. red",
+      "1. green, 2. red, 3. blue, 4. your vehicle",
+      "1. your vehicle, 2. green, 3. blue with red at the same time"
+    ],
+    "answer": "1. your vehicle, 2. green, 3. blue with red at the same time",
+    "points": 3,
+    "image": "at_the_same_time.png",
+    "category": "Situations"
+  },
+  {
+    "question": "What is the number of times the blue vehicle passes through the intersection: [3 point]",
+    "options": [
+      "first",
+      "secondly",
+      "lastly"
+    ],
+    "answer": "secondly",
+    "points": 3,
+    "image": "turning.png",
+    "category": "Situations"
+  },
+  {
+    "question": "The driver of the red vehicle is allowed to: [4 point]",
+    "options": [
+      "You may continue to the right at the green arrow; you have priority over the green vehicle, but you must give way to pedestrians crossing in the clear direction.",
+      "You may pass through the intersection at the same time as the blue vehicle; you must not endanger the driver of the green vehicle traveling in the free direction and you must not restrict pedestrians.",
+      "You may turn right at the signal of the additional green arrow; you must give way to vehicles traveling in the clear direction as well as pedestrians crossing in the clear direction."
+    ],
+    "answer": "You may turn right at the signal of the additional green arrow; you must give way to vehicles traveling in the clear direction as well as pedestrians crossing in the clear direction.",
+    "points": 4,
+    "image": "pedestrians.png",
+    "category": "Situations"
+  }
+]
