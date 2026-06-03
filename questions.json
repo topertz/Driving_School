@@ -614,7 +614,7 @@
     ],
     "answer": "Priority to oncoming traffic",
     "points": 2,
-    "image": "szembejovo.png",
+    "image": "facing.png",
     "category": "Signs"
   },
   {
@@ -710,7 +710,7 @@
     ],
     "answer": "lastly",
     "points": 3,
-    "image": "board.png",
+    "image": "border.png",
     "category": "Situations"
   },
   {
