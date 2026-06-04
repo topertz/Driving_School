@@ -302,8 +302,8 @@ function loadQuiz(selectedQuestions) {
     questionElem.style.boxShadow = "2px 2px 10px rgba(0, 0, 0, 0.1)";
 
     let questionText = `${index + 1}. ${q.question}`;
-    questionText = questionText.replace(/\[\d+ score\]/g, ""); 
-    questionText += ` [${q.points} score]`;
+    questionText = questionText.replace(/\[\d+ point\]/g, ""); 
+    questionText += ` [${q.points} point]`;
 
     if (q.image) {
       questionText += `<br><img src="images/${q.image}" alt="Image for the question" class="question-image" style="margin-top: 10px;">`;
