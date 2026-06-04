@@ -12,7 +12,7 @@ Sharp test
   <img src="image/driving_school_test.png" alt="Driving School application" width="50%" />
 </div>
 
-Good and bad answers
+Correct and bad answers
 
 <div align="center">
   <img src="image/good_and_bad_answers.png" alt="Driving School application" width="100%" />
