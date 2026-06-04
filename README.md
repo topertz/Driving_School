@@ -15,11 +15,11 @@ Sharp test
 Correct and bad answers
 
 <div align="center">
-  <img src="image/correct_and_bad_answers.png" alt="Driving School application" width="100%" />
+  <img src="image/driving_school_correct_and_bad_answers.png" alt="Driving School application" width="100%" />
 </div>
 
 Hint answers
 
 <div align="center">
-  <img src="image/hint_answers.png" alt="Driving School application" width="100%" />
+  <img src="image/driving_school_hint_answers.png" alt="Driving School application" width="100%" />
 </div>
