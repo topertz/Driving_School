@@ -9,13 +9,13 @@ Main page
 Sharp test
 
 <div align="center">
-  <img src="image/driving_school_test.png" alt="Driving School application" width="50%" />
+  <img src="image/driving_school_sharp_test.png" alt="Driving School application" width="50%" />
 </div>
 
 Correct and bad answers
 
 <div align="center">
-  <img src="image/good_and_bad_answers.png" alt="Driving School application" width="100%" />
+  <img src="image/correct_and_bad_answers.png" alt="Driving School application" width="100%" />
 </div>
 
 Hint answers
